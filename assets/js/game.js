@@ -10,7 +10,7 @@ var playerAttack = 10;
 var playerMoney = 10;
 
 var enemyNames = ["Roborto", "Amy Android", "Robo Trouble"];
-var enemyHealth = 50;
+var enemyHealth = 20;
 var enemyAttack = 12;
 
 // You can also log multiple values at once like this
@@ -102,5 +102,9 @@ var fight = function (enemyName) {
 };
 
 for (var i = 0; 1 < enemyNames.length; i++) {
-  fight(enemyNames[i]);
+  debugger;
+  var pickedEnemyName = enemyNames[i];
+  enemyHealth = 20;
+  // call fight function with enemy robot
+  fight(pickedEnemyName);
 }
