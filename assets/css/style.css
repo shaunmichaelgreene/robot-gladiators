@@ -1,0 +1,15 @@
+*{
+    background-color:coral
+}
+
+div {
+    text-align: center;
+    font-size: x-large;
+}
+
+#start-button {
+    background-color:chartreuse;
+    font-weight: bold;
+    font-size: larger;
+}
+
